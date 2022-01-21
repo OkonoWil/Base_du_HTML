@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- le titre de ma page -->
+    <title>Cours HTML</title>
+    <!-- Icone de l'onglet -->
+    <link rel="shortcut icon" href="html_5.png">
+</head>
+<body>
+    <header>
+        <h1>Titre - H1</h1>
+        <p>Text basique. <em>Voici  un texte en italique.</em> <strong>Un text en gras.
+        </strong> <span>L'élément ne vaut rien.</span> </p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio blanditiis dolorum alias quo animi nostrum, ut dignissimos hic sint deserunt aliquid libero voluptates reprehenderit ipsum fugit eos soluta maxime fugiat?</p>
+    </header>
+    <section>
+        <div>
+            <h2>Photo Titre - H2</h2>
+            <img src="pp.jpg" height="200" alt="photo">
+        </div>
+        <div>
+            <h3>Listrs Titre - H3</h3>
+            <ul>
+                <li>unordered list</li>
+                <li>unordered list</li>
+                <li>unordered list</li>
+                <li>unordered list</li>
+            </ul>
+            <ol type="a">
+                <li>ordered list</li>
+                <li>ordered list</li>
+                <li>ordered list</li>
+                <li>ordered list</li>
+            </ol>
+        </div>
+        <div>
+            <h4>Tableaux Titre - H4</h4>
+            <table border="1" width="500px"> 
+                <caption>Population d'europe</caption>
+                <thead>
+                    <tr>
+                        <th>Pays</th>
+                        <th>Population</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>France</td>
+                        <td>66M</td>
+                    </tr>
+                    <tr>
+                        <td>Allemagne</td>
+                        <td>82M</td>
+                    </tr>
+                    <tr>
+                        <td>Espagne</td>
+                        <td>47M</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h5>Liens Titre - H5</h5>
+            <a href="https://www.toptal.com/designers/htmlarrows/symbols/" target="_blank">Icones en HTML</a>
+            <br>
+            <a href="https://htmlcheatsheet.com/" target="_blank">HTML Cheat Sheet</a>
+        </div>
+        <div>
+            <h6>Vidéos Titre - H6</h6>
+            <video src="video.mp4" height="400" autoplay muted loop></video>
+        </div>
+    </section>
+    <br>
+    <section>
+        <h1>Formulaire</h1>
+        <form action="" method="POST">
+            <label for="name">Nom </label>
+            <input type="text" id="name" placeholder="Entrez votre nom">
+            <label for="age">Age </label>
+            <input type="number" id="age" placeholder="Entrez votre âge">
+            <!-- Input select -->
+            <label for="gender">Genre </label>
+            <select id="gender">
+                <option value="homme">Homme</option>
+                <option value="femme">Femme</option>
+            </select>
+            <!-- Input radio -->
+            <label for="race">Race </label>
+            <input type="radio" name="type" id="human" checked>
+            <label for="human">Humain</label>
+            <input type="radio" name="type" id="dog">
+            <label for="dog">Chien</label>
+            <input type="radio" name="type" id="cat">
+            <label for="cat">Chat</label>
+            <textarea cols="50" rows="10" placeholder="Entrez votre demande ici"></textarea>
+            <!-- Input Checkbox -->
+            <br>
+            <label for="send"><input type="checkbox" id="send">Accepter les condictions </label>
+            <br>
+            <input type="submit" value="Valider">
+        </form>
+    </section>
+    <footer>
+        <a href="php.pdf" download="apprendre_le_php">Télécharger le PDF</a>
+        <a href="mailto:okonowilfried@gmail.com">Ecrivez moi!</a>
+    </footer>
+</body>
+</html>
